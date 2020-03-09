@@ -1,6 +1,6 @@
  #!/bin/bash
 
-FONTS_ZIP_FILE="https://github.com/vgiannoul/rattlesnakeos-scripts/raw/master/files/GoogleSans.zip"
+FONTS_ZIP_FILE="https://github.com/vgiannoul/rattlesnakeos-scripts/raw/master/files/Ubuntu.zip"
 mkdir -p $BUILD_DIR/branding
 echo "Downloading fonts zip file $FONTS_ZIP_FILE"
 wget -O $BUILD_DIR/branding/custom_font.zip $FONTS_ZIP_FILE
